@@ -1,0 +1,147 @@
+.figure {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-4);
+}
+
+.summary {
+  max-width: 44ch;
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+}
+
+.switch {
+  display: inline-flex;
+  padding: 2px;
+  border: var(--hairline) solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.switchButton {
+  padding: var(--space-1) var(--space-2);
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--color-text-muted);
+  font-size: var(--text-xs);
+  transition:
+    background-color var(--duration-fast) var(--ease-out),
+    color var(--duration-fast) var(--ease-out);
+}
+
+.switchButton[aria-pressed='true'] {
+  background: var(--color-surface-sunken);
+  color: var(--color-text);
+}
+
+.chart {
+  height: 13.5rem;
+}
+
+.chart :global(.recharts-cartesian-grid line) {
+  stroke: var(--chart-grid);
+}
+
+.axis :global(.recharts-cartesian-axis-tick-value) {
+  fill: var(--color-text-subtle);
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+}
+
+.bar {
+  fill: var(--chart-1);
+}
+
+.barPartial {
+  fill: color-mix(in oklab, var(--chart-1) 50%, var(--color-surface));
+}
+
+.cursor {
+  fill: var(--chart-cursor);
+}
+
+.peakLabel {
+  fill: var(--color-text);
+  font-size: 11px;
+  font-weight: var(--weight-medium);
+  font-variant-numeric: tabular-nums;
+}
+
+.tooltip {
+  padding: var(--space-2) var(--space-3);
+  border: var(--hairline) solid var(--color-border-strong);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-float);
+  font-size: var(--text-xs);
+}
+
+.tooltipLabel,
+.tooltipNote {
+  color: var(--color-text-muted);
+}
+
+.tooltipValue {
+  color: var(--color-text);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+}
+
+.footnote {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--color-text-subtle);
+  font-size: var(--text-xs);
+}
+
+.partialSwatch {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  background: color-mix(in oklab, var(--chart-1) 50%, var(--color-surface));
+}
+
+.tableWrap {
+  max-height: 13.5rem;
+  overflow-y: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-sm);
+  font-variant-numeric: tabular-nums;
+}
+
+.table th,
+.table td {
+  padding: var(--space-1) 0;
+  border-bottom: var(--hairline) solid var(--color-border);
+  text-align: left;
+  font-weight: var(--weight-regular);
+}
+
+.table thead th {
+  color: var(--color-text-subtle);
+  font-size: var(--text-xs);
+}
+
+.table td {
+  text-align: right;
+}
+
+.table thead th:last-child {
+  text-align: right;
+}
+
+.partialTag {
+  color: var(--color-text-subtle);
+}

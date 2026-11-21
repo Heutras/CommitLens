@@ -1,0 +1,7 @@
+# CommitLens
+
+> CommitLens is a single-page web app that analyzes public GitHub repositories with the GitHub REST API, directly from the browser. It shows weekly commits for the last 12 weeks, language share by bytes of code, the first page of contributors ranked by commits, and recent commits. No account or token is needed.
+
+- To analyze a repository, open `/?repo=owner/name` (for example `/?repo=vitejs/vite`).
+- Data comes from the public GitHub REST API: https://docs.github.com/en/rest
+- CommitLens is an independent project and is not affiliated with GitHub.

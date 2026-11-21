@@ -1,0 +1,236 @@
+{
+  "fullName": "torvalds/linux",
+  "capturedAt": "2026-11-20T15:09:51.232Z",
+  "sections": {
+    "repository": {
+      "data": {
+        "fullName": "torvalds/linux",
+        "name": "linux",
+        "owner": {
+          "login": "torvalds",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1024025?v=4",
+          "type": "User"
+        },
+        "description": "Linux kernel source tree",
+        "htmlUrl": "https://github.com/torvalds/linux",
+        "homepage": null,
+        "visibility": "public",
+        "isFork": false,
+        "isArchived": false,
+        "stars": 256212,
+        "forks": 67563,
+        "watchers": 8550,
+        "openIssuesAndPulls": 3,
+        "license": {
+          "name": "Other",
+          "spdxId": null
+        },
+        "defaultBranch": "master",
+        "pushedAt": "2026-11-19T22:24:51Z",
+        "topics": []
+      }
+    },
+    "languages": {
+      "data": {
+        "totalBytes": 1516140576,
+        "languageCount": 25,
+        "items": [
+          {
+            "name": "C",
+            "bytes": 1482427382,
+            "percent": 97.8
+          },
+          {
+            "name": "Assembly",
+            "bytes": 9587935,
+            "percent": 0.6
+          },
+          {
+            "name": "Rust",
+            "bytes": 7259879,
+            "percent": 0.5
+          },
+          {
+            "name": "Shell",
+            "bytes": 6639679,
+            "percent": 0.4
+          },
+          {
+            "name": "Python",
+            "bytes": 5218651,
+            "percent": 0.4
+          },
+          {
+            "name": "Other",
+            "bytes": 5007050,
+            "percent": 0.3
+          }
+        ]
+      }
+    },
+    "contributors": {
+      "error": {
+        "kind": "too-large",
+        "status": 403,
+        "message": "GitHub does not list this data for very large repositories."
+      }
+    },
+    "commitActivity": {
+      "data": {
+        "weeks": [
+          {
+            "weekStart": "2026-08-30T00:00:00.000Z",
+            "commits": 2445,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-09-06T00:00:00.000Z",
+            "commits": 1944,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-09-13T00:00:00.000Z",
+            "commits": 2268,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-09-20T00:00:00.000Z",
+            "commits": 2170,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-09-27T00:00:00.000Z",
+            "commits": 1845,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-10-04T00:00:00.000Z",
+            "commits": 1554,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-10-11T00:00:00.000Z",
+            "commits": 1571,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-10-18T00:00:00.000Z",
+            "commits": 968,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-10-25T00:00:00.000Z",
+            "commits": 904,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-11-01T00:00:00.000Z",
+            "commits": 442,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-11-08T00:00:00.000Z",
+            "commits": 302,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-11-15T00:00:00.000Z",
+            "commits": 69,
+            "inProgress": true
+          }
+        ],
+        "total": 16482,
+        "peak": {
+          "weekStart": "2026-08-30T00:00:00.000Z",
+          "commits": 2445,
+          "inProgress": false
+        },
+        "average": 1373.5
+      }
+    },
+    "commits": {
+      "data": [
+        {
+          "sha": "65e4fd942f72a9dba0e4e257290c4fa1aa756854",
+          "shortSha": "65e4fd9",
+          "message": "Merge tag 'selinux-pr-20261119' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux",
+          "authorName": "torvalds",
+          "authorLogin": "torvalds",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1024025?v=4",
+          "date": "2026-11-19T22:05:24Z",
+          "htmlUrl": "https://github.com/torvalds/linux/commit/65e4fd942f72a9dba0e4e257290c4fa1aa756854"
+        },
+        {
+          "sha": "d3e1fcc93027bec7c470bc4dfae4716e621f5cde",
+          "shortSha": "d3e1fcc",
+          "message": "Merge tag 'thermal-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm",
+          "authorName": "torvalds",
+          "authorLogin": "torvalds",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1024025?v=4",
+          "date": "2026-11-19T21:20:45Z",
+          "htmlUrl": "https://github.com/torvalds/linux/commit/d3e1fcc93027bec7c470bc4dfae4716e621f5cde"
+        },
+        {
+          "sha": "75099ce6829ff89464cb7dd32471024c6c17c1de",
+          "shortSha": "75099ce",
+          "message": "Merge tag 'pm-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm",
+          "authorName": "torvalds",
+          "authorLogin": "torvalds",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1024025?v=4",
+          "date": "2026-11-19T20:57:22Z",
+          "htmlUrl": "https://github.com/torvalds/linux/commit/75099ce6829ff89464cb7dd32471024c6c17c1de"
+        },
+        {
+          "sha": "d40cb8a12ed25789f39404c5f7968a65e98d89c3",
+          "shortSha": "d40cb8a",
+          "message": "Merge branches 'acpi-cppc-fixes' and 'pm-cpufreq-fixes'",
+          "authorName": "rafaeljw",
+          "authorLogin": "rafaeljw",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/59047735?v=4",
+          "date": "2026-11-19T19:23:59Z",
+          "htmlUrl": "https://github.com/torvalds/linux/commit/d40cb8a12ed25789f39404c5f7968a65e98d89c3"
+        },
+        {
+          "sha": "8dac6df92a2e66e2098bbc69061964cfe7e8375b",
+          "shortSha": "8dac6df",
+          "message": "Merge tag 'nfsd-7.4-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux",
+          "authorName": "torvalds",
+          "authorLogin": "torvalds",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1024025?v=4",
+          "date": "2026-11-19T16:36:23Z",
+          "htmlUrl": "https://github.com/torvalds/linux/commit/8dac6df92a2e66e2098bbc69061964cfe7e8375b"
+        },
+        {
+          "sha": "1ecc5b7c95ae585042ccbf3c587897dd99e2ddb5",
+          "shortSha": "1ecc5b7",
+          "message": "nfsd: unlock the locked parent after crossing a mount in CREATE",
+          "authorName": "orkunsari",
+          "authorLogin": "orkunsari",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/115951983?v=4",
+          "date": "2026-11-04T11:56:15Z",
+          "htmlUrl": "https://github.com/torvalds/linux/commit/1ecc5b7c95ae585042ccbf3c587897dd99e2ddb5"
+        },
+        {
+          "sha": "1e575bda30acc0bf01f799cee798d4a1c100d538",
+          "shortSha": "1e575bd",
+          "message": "Merge tag 'net-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net",
+          "authorName": "torvalds",
+          "authorLogin": "torvalds",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1024025?v=4",
+          "date": "2026-11-19T16:11:44Z",
+          "htmlUrl": "https://github.com/torvalds/linux/commit/1e575bda30acc0bf01f799cee798d4a1c100d538"
+        },
+        {
+          "sha": "f1715c0c04606ebbe832cc760abf49dfd6f2ae1f",
+          "shortSha": "f1715c0",
+          "message": "Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost",
+          "authorName": "torvalds",
+          "authorLogin": "torvalds",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1024025?v=4",
+          "date": "2026-11-19T16:04:04Z",
+          "htmlUrl": "https://github.com/torvalds/linux/commit/f1715c0c04606ebbe832cc760abf49dfd6f2ae1f"
+        }
+      ]
+    }
+  }
+}

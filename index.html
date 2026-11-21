@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CommitLens: Understand what moves your codebase</title>
+    <meta
+      name="description"
+      content="Analyze any public GitHub repository. See weekly commits, language mix by bytes of code, top contributors and recent commits on one page. No account needed."
+    />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#f5f3ec" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0d0e0c" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!--seo-links-->
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="CommitLens" />
+    <meta property="og:title" content="CommitLens: Understand what moves your codebase" />
+    <meta
+      property="og:description"
+      content="Weekly commits, languages, contributors and recent changes for any public GitHub repository."
+    />
+    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="CommitLens analysis of a GitHub repository" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Apply the saved or system theme before first paint to avoid a flash. -->
+    <script>
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem('commitlens-theme');
+        } catch (e) {}
+        if (theme !== 'light' && theme !== 'dark') {
+          theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"><!--app-html--></div>
+    <noscript>
+      <p style="padding: 1rem; font-family: system-ui">
+        CommitLens needs JavaScript to call the GitHub API from your browser.
+      </p>
+    </noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

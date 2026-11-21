@@ -1,0 +1,131 @@
+/*
+ * CommitLens design tokens.
+ * Every color, size and duration in the app comes from here.
+ * Themes switch by setting data-theme="light" | "dark" on <html>.
+ */
+
+:root {
+  /* Typography */
+  --font-display: 'Instrument Serif', 'Iowan Old Style', Georgia, serif;
+  --font-sans:
+    'Geist Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'Geist Mono Variable', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  --text-xs: 0.75rem; /* 12 */
+  --text-sm: 0.8125rem; /* 13 */
+  --text-base: 0.9375rem; /* 15 */
+  --text-md: 1.0625rem; /* 17 */
+  --text-lg: 1.25rem; /* 20 */
+  --text-xl: 1.625rem; /* 26 */
+  --text-2xl: clamp(2rem, 1.4rem + 2.4vw, 3rem); /* section headings */
+  --text-display: clamp(2.75rem, 1.6rem + 5.2vw, 5.5rem); /* hero */
+
+  --leading-tight: 1.05;
+  --leading-snug: 1.3;
+  --leading-normal: 1.55;
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+
+  /* Spacing scale (4px base) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+
+  /* Layout */
+  --content-max: 72rem;
+  --gutter: clamp(1rem, 0.5rem + 2.5vw, 2.5rem);
+  --header-height: 3.5rem;
+
+  /* Shape */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+  --hairline: 1px;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-fast: 150ms;
+  --duration-base: 220ms;
+  --duration-slow: 360ms;
+
+  color-scheme: light dark;
+}
+
+/* Light theme: warm off-white paper, ink text, deep sage accent. */
+:root,
+:root[data-theme='light'] {
+  color-scheme: light;
+  --color-bg: #f5f3ec;
+  --color-surface: #fbfaf6;
+  --color-surface-sunken: #eeebe2;
+  --color-border: rgb(28 27 23 / 0.11);
+  --color-border-strong: rgb(28 27 23 / 0.22);
+  --color-text: #1c1b17;
+  --color-text-muted: #57554d;
+  --color-text-subtle: #6b685f;
+  --color-accent: #4b661a;
+  --color-accent-fill: #c6df6f;
+  --color-on-accent: #1a2205;
+  --color-accent-soft: rgb(90 122 36 / 0.12);
+  --color-ink: #1c1b17;
+  --color-on-ink: #f5f3ec;
+  --color-danger: #a3341f;
+  --color-danger-soft: rgb(163 52 31 / 0.08);
+  --color-warning: #8a5a00;
+  --color-focus: #4b661a;
+  --shadow-float: 0 1px 2px rgb(28 27 23 / 0.04), 0 12px 32px rgb(28 27 23 / 0.06);
+
+  /* Chart palette, validated for CVD separation and 3:1 contrast on --color-surface */
+  --chart-1: #5a7a24;
+  --chart-2: #3f6aa8;
+  --chart-3: #b08415;
+  --chart-4: #00897a;
+  --chart-5: #b8502c;
+  --chart-other: #9a978d;
+  --chart-grid: rgb(28 27 23 / 0.08);
+  --chart-cursor: rgb(28 27 23 / 0.05);
+}
+
+/* Dark theme: near-black and charcoal, lime accent. */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --color-bg: #0d0e0c;
+  --color-surface: #141513;
+  --color-surface-sunken: #1b1c1a;
+  --color-border: rgb(236 237 230 / 0.09);
+  --color-border-strong: rgb(236 237 230 / 0.18);
+  --color-text: #ecede6;
+  --color-text-muted: #a8aa9f;
+  --color-text-subtle: #8d8f85;
+  --color-accent: #b9d863;
+  --color-accent-fill: #b9d863;
+  --color-on-accent: #141a04;
+  --color-accent-soft: rgb(185 216 99 / 0.1);
+  --color-ink: #ecede6;
+  --color-on-ink: #0d0e0c;
+  --color-danger: #ef8a72;
+  --color-danger-soft: rgb(239 138 114 / 0.08);
+  --color-warning: #e3b55a;
+  --color-focus: #b9d863;
+  --shadow-float: 0 1px 2px rgb(0 0 0 / 0.3), 0 12px 32px rgb(0 0 0 / 0.35);
+
+  --chart-1: #77992c;
+  --chart-2: #5d8fd8;
+  --chart-3: #b98d22;
+  --chart-4: #1fa592;
+  --chart-5: #d4693f;
+  --chart-other: #6f716a;
+  --chart-grid: rgb(236 237 230 / 0.07);
+  --chart-cursor: rgb(236 237 230 / 0.05);
+}

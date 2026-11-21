@@ -1,0 +1,11 @@
+# Files that the Vercel CLI must not upload.
+security
+.claude
+docs
+e2e
+coverage
+playwright-report
+test-results
+.env
+.env.*
+!.env.example

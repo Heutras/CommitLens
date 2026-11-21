@@ -1,0 +1,306 @@
+{
+  "fullName": "golang/go",
+  "capturedAt": "2026-11-20T15:09:49.566Z",
+  "sections": {
+    "repository": {
+      "data": {
+        "fullName": "golang/go",
+        "name": "go",
+        "owner": {
+          "login": "golang",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4314092?v=4",
+          "type": "Organization"
+        },
+        "description": "The Go programming language",
+        "htmlUrl": "https://github.com/golang/go",
+        "homepage": "https://go.dev",
+        "visibility": "public",
+        "isFork": false,
+        "isArchived": false,
+        "stars": 140125,
+        "forks": 20270,
+        "watchers": 3363,
+        "openIssuesAndPulls": 9916,
+        "license": {
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdxId": "BSD-3-Clause"
+        },
+        "defaultBranch": "master",
+        "pushedAt": "2026-11-20T11:09:31Z",
+        "topics": ["go", "golang", "language", "programming-language"]
+      }
+    },
+    "languages": {
+      "data": {
+        "totalBytes": 64943496,
+        "languageCount": 12,
+        "items": [
+          {
+            "name": "Go",
+            "bytes": 58732957,
+            "percent": 90.4
+          },
+          {
+            "name": "Assembly",
+            "bytes": 3325377,
+            "percent": 5.1
+          },
+          {
+            "name": "HTML",
+            "bytes": 2633010,
+            "percent": 4.1
+          },
+          {
+            "name": "C",
+            "bytes": 98061,
+            "percent": 0.2
+          },
+          {
+            "name": "Shell",
+            "bytes": 68137,
+            "percent": 0.1
+          },
+          {
+            "name": "Other",
+            "bytes": 85954,
+            "percent": 0.1
+          }
+        ]
+      }
+    },
+    "contributors": {
+      "data": {
+        "items": [
+          {
+            "login": "rsc",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/104030?v=4",
+            "htmlUrl": "https://github.com/rsc",
+            "contributions": 7580,
+            "isBot": false
+          },
+          {
+            "login": "griesemer",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/8528975?v=4",
+            "htmlUrl": "https://github.com/griesemer",
+            "contributions": 4657,
+            "isBot": false
+          },
+          {
+            "login": "robpike",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/4324516?v=4",
+            "htmlUrl": "https://github.com/robpike",
+            "contributions": 2993,
+            "isBot": false
+          },
+          {
+            "login": "ianlancetaylor",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/3194333?v=4",
+            "htmlUrl": "https://github.com/ianlancetaylor",
+            "contributions": 2881,
+            "isBot": false
+          },
+          {
+            "login": "bradfitz",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/2621?v=4",
+            "htmlUrl": "https://github.com/bradfitz",
+            "contributions": 2420,
+            "isBot": false
+          },
+          {
+            "login": "aclements",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/2688315?v=4",
+            "htmlUrl": "https://github.com/aclements",
+            "contributions": 2078,
+            "isBot": false
+          },
+          {
+            "login": "randall77",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/6889504?v=4",
+            "htmlUrl": "https://github.com/randall77",
+            "contributions": 1852,
+            "isBot": false
+          },
+          {
+            "login": "cherrymui",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/14119929?v=4",
+            "htmlUrl": "https://github.com/cherrymui",
+            "contributions": 1846,
+            "isBot": false
+          },
+          {
+            "login": "mdempsky",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/38349?v=4",
+            "htmlUrl": "https://github.com/mdempsky",
+            "contributions": 1710,
+            "isBot": false
+          },
+          {
+            "login": "josharian",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/67496?v=4",
+            "htmlUrl": "https://github.com/josharian",
+            "contributions": 1521,
+            "isBot": false
+          }
+        ],
+        "hasMore": true
+      }
+    },
+    "commitActivity": {
+      "data": {
+        "weeks": [
+          {
+            "weekStart": "2026-08-30T00:00:00.000Z",
+            "commits": 100,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-09-06T00:00:00.000Z",
+            "commits": 94,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-09-13T00:00:00.000Z",
+            "commits": 113,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-09-20T00:00:00.000Z",
+            "commits": 74,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-09-27T00:00:00.000Z",
+            "commits": 119,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-10-04T00:00:00.000Z",
+            "commits": 95,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-10-11T00:00:00.000Z",
+            "commits": 89,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-10-18T00:00:00.000Z",
+            "commits": 61,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-10-25T00:00:00.000Z",
+            "commits": 101,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-11-01T00:00:00.000Z",
+            "commits": 135,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-11-08T00:00:00.000Z",
+            "commits": 156,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-11-15T00:00:00.000Z",
+            "commits": 86,
+            "inProgress": true
+          }
+        ],
+        "total": 1223,
+        "peak": {
+          "weekStart": "2026-11-08T00:00:00.000Z",
+          "commits": 156,
+          "inProgress": false
+        },
+        "average": 101.91666666666667
+      }
+    },
+    "commits": {
+      "data": [
+        {
+          "sha": "34c413ad2a85db3857ecfd73d9d6d682e40e30d5",
+          "shortSha": "34c413a",
+          "message": "simd/archsimd: require AVX512 for Enlarge to 512-bit vectors",
+          "authorName": "aclements",
+          "authorLogin": "aclements",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2688315?v=4",
+          "date": "2026-11-19T02:42:03Z",
+          "htmlUrl": "https://github.com/golang/go/commit/34c413ad2a85db3857ecfd73d9d6d682e40e30d5"
+        },
+        {
+          "sha": "2347fa3357ef7649edefbbc71a020e9d829d95d4",
+          "shortSha": "2347fa3",
+          "message": "simd/archsimd/_gen/simdgen: drop vestigial composite CPUFeature splitting",
+          "authorName": "aclements",
+          "authorLogin": "aclements",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2688315?v=4",
+          "date": "2026-11-19T15:49:05Z",
+          "htmlUrl": "https://github.com/golang/go/commit/2347fa3357ef7649edefbbc71a020e9d829d95d4"
+        },
+        {
+          "sha": "c52c758184ad995813afa9732c6a3fe398da443f",
+          "shortSha": "c52c758",
+          "message": "simd/archsimd: replace wasm MulWidenHi with a fold of HiToLo().MulWiden()",
+          "authorName": "aclements",
+          "authorLogin": "aclements",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2688315?v=4",
+          "date": "2026-11-20T03:59:42Z",
+          "htmlUrl": "https://github.com/golang/go/commit/c52c758184ad995813afa9732c6a3fe398da443f"
+        },
+        {
+          "sha": "25dba824d0d03b7caa7412348979dd3ab22a7c9e",
+          "shortSha": "25dba82",
+          "message": "simd/archsimd: rename MulWidenLo to MulWiden",
+          "authorName": "aclements",
+          "authorLogin": "aclements",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2688315?v=4",
+          "date": "2026-11-20T03:47:28Z",
+          "htmlUrl": "https://github.com/golang/go/commit/25dba824d0d03b7caa7412348979dd3ab22a7c9e"
+        },
+        {
+          "sha": "5ae43fc85f1927b8f3a57bc1f4a3f2ed19004bbf",
+          "shortSha": "5ae43fc",
+          "message": "cmd/internal/testdir: with -target=goos/goarch, execute \"buildrun\" tests on the target",
+          "authorName": "millerresearch",
+          "authorLogin": "millerresearch",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/17780869?v=4",
+          "date": "2026-11-19T13:44:19Z",
+          "htmlUrl": "https://github.com/golang/go/commit/5ae43fc85f1927b8f3a57bc1f4a3f2ed19004bbf"
+        },
+        {
+          "sha": "0351fe5c9795a37afd08c3c7568abd3186c629b4",
+          "shortSha": "0351fe5",
+          "message": "cmd/compile: export all bodies bundled with portable simd",
+          "authorName": "aclements",
+          "authorLogin": "aclements",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2688315?v=4",
+          "date": "2026-11-18T22:55:21Z",
+          "htmlUrl": "https://github.com/golang/go/commit/0351fe5c9795a37afd08c3c7568abd3186c629b4"
+        },
+        {
+          "sha": "220a50dd67f15103abfa513f3044f876bde2b49f",
+          "shortSha": "220a50d",
+          "message": "internal/cpu: accept GODEBUG=cpu.avx512vpclmulqdq",
+          "authorName": "aclements",
+          "authorLogin": "aclements",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2688315?v=4",
+          "date": "2026-11-20T02:30:25Z",
+          "htmlUrl": "https://github.com/golang/go/commit/220a50dd67f15103abfa513f3044f876bde2b49f"
+        },
+        {
+          "sha": "66f6f16b3b19d659a58eaa39441e65645729b48b",
+          "shortSha": "66f6f16",
+          "message": "simd, simd/archsimd: rename CarrylessMultiply to CarrylessMul",
+          "authorName": "aclements",
+          "authorLogin": "aclements",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2688315?v=4",
+          "date": "2026-11-18T21:20:36Z",
+          "htmlUrl": "https://github.com/golang/go/commit/66f6f16b3b19d659a58eaa39441e65645729b48b"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "fullName": "microsoft/vscode",
+  "capturedAt": "2026-11-20T15:09:47.833Z",
+  "sections": {
+    "repository": {
+      "data": {
+        "fullName": "microsoft/vscode",
+        "name": "vscode",
+        "owner": {
+          "login": "microsoft",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
+          "type": "Organization"
+        },
+        "description": "Visual Studio Code",
+        "htmlUrl": "https://github.com/microsoft/vscode",
+        "homepage": "https://code.visualstudio.com",
+        "visibility": "public",
+        "isFork": false,
+        "isArchived": false,
+        "stars": 195704,
+        "forks": 43894,
+        "watchers": 3603,
+        "openIssuesAndPulls": 21711,
+        "license": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        },
+        "defaultBranch": "main",
+        "pushedAt": "2026-11-20T15:09:10Z",
+        "topics": ["editor", "electron", "microsoft", "typescript", "visual-studio-code"]
+      }
+    },
+    "languages": {
+      "data": {
+        "totalBytes": 251069223,
+        "languageCount": 47,
+        "items": [
+          {
+            "name": "TypeScript",
+            "bytes": 242557694,
+            "percent": 96.6
+          },
+          {
+            "name": "CSS",
+            "bytes": 3605962,
+            "percent": 1.4
+          },
+          {
+            "name": "Rust",
+            "bytes": 1647318,
+            "percent": 0.7
+          },
+          {
+            "name": "JavaScript",
+            "bytes": 1177822,
+            "percent": 0.5
+          },
+          {
+            "name": "HTML",
+            "bytes": 709156,
+            "percent": 0.3
+          },
+          {
+            "name": "Other",
+            "bytes": 1371271,
+            "percent": 0.5
+          }
+        ]
+      }
+    },
+    "contributors": {
+      "data": {
+        "items": [
+          {
+            "login": "bpasero",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/900690?v=4",
+            "htmlUrl": "https://github.com/bpasero",
+            "contributions": 14748,
+            "isBot": false
+          },
+          {
+            "login": "jrieken",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/1794099?v=4",
+            "htmlUrl": "https://github.com/jrieken",
+            "contributions": 12778,
+            "isBot": false
+          },
+          {
+            "login": "Tyriar",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/2193314?v=4",
+            "htmlUrl": "https://github.com/Tyriar",
+            "contributions": 12520,
+            "isBot": false
+          },
+          {
+            "login": "sandy081",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/10746682?v=4",
+            "htmlUrl": "https://github.com/sandy081",
+            "contributions": 9645,
+            "isBot": false
+          },
+          {
+            "login": "joaomoreno",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/22350?v=4",
+            "htmlUrl": "https://github.com/joaomoreno",
+            "contributions": 8941,
+            "isBot": false
+          },
+          {
+            "login": "alexdima",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/5047891?v=4",
+            "htmlUrl": "https://github.com/alexdima",
+            "contributions": 8212,
+            "isBot": false
+          },
+          {
+            "login": "roblourens",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/323878?v=4",
+            "htmlUrl": "https://github.com/roblourens",
+            "contributions": 7194,
+            "isBot": false
+          },
+          {
+            "login": "meganrogge",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29464607?v=4",
+            "htmlUrl": "https://github.com/meganrogge",
+            "contributions": 5755,
+            "isBot": false
+          },
+          {
+            "login": "aeschli",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/6461412?v=4",
+            "htmlUrl": "https://github.com/aeschli",
+            "contributions": 5457,
+            "isBot": false
+          },
+          {
+            "login": "rebornix",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/876920?v=4",
+            "htmlUrl": "https://github.com/rebornix",
+            "contributions": 5127,
+            "isBot": false
+          }
+        ],
+        "hasMore": true
+      }
+    },
+    "commitActivity": {
+      "data": {
+        "weeks": [
+          {
+            "weekStart": "2026-08-30T00:00:00.000Z",
+            "commits": 693,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-09-06T00:00:00.000Z",
+            "commits": 861,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-09-13T00:00:00.000Z",
+            "commits": 632,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-09-20T00:00:00.000Z",
+            "commits": 1196,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-09-27T00:00:00.000Z",
+            "commits": 747,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-10-04T00:00:00.000Z",
+            "commits": 935,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-10-11T00:00:00.000Z",
+            "commits": 1038,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-10-18T00:00:00.000Z",
+            "commits": 1484,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-10-25T00:00:00.000Z",
+            "commits": 1407,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-11-01T00:00:00.000Z",
+            "commits": 1365,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-11-08T00:00:00.000Z",
+            "commits": 1667,
+            "inProgress": false
+          },
+          {
+            "weekStart": "2026-11-15T00:00:00.000Z",
+            "commits": 796,
+            "inProgress": true
+          }
+        ],
+        "total": 12821,
+        "peak": {
+          "weekStart": "2026-11-08T00:00:00.000Z",
+          "commits": 1667,
+          "inProgress": false
+        },
+        "average": 1068.4166666666667
+      }
+    },
+    "commits": {
+      "data": [
+        {
+          "sha": "1a2bfc8578e7499c836669e490760da715f60b76",
+          "shortSha": "1a2bfc8",
+          "message": "sessions: remove dead indirection from SessionsList (#349452)",
+          "authorName": "ulugbekna",
+          "authorLogin": "ulugbekna",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/16353531?v=4",
+          "date": "2026-11-20T14:50:19Z",
+          "htmlUrl": "https://github.com/microsoft/vscode/commit/1a2bfc8578e7499c836669e490760da715f60b76"
+        },
+        {
+          "sha": "2c3453e4f1573aacf0ae3fd7fc7fa89846f4632d",
+          "shortSha": "2c3453e",
+          "message": "Agent host chats: show a custom agent's argument-hint (#349049)",
+          "authorName": "hediet",
+          "authorLogin": "hediet",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2931520?v=4",
+          "date": "2026-11-20T14:39:24Z",
+          "htmlUrl": "https://github.com/microsoft/vscode/commit/2c3453e4f1573aacf0ae3fd7fc7fa89846f4632d"
+        },
+        {
+          "sha": "464464d09dfa328a90d62ab270dab81cf5ee2635",
+          "shortSha": "464464d",
+          "message": "sessions: show an Agents window graphic above the new-session welcome for new users (#349441)",
+          "authorName": "benibenj",
+          "authorLogin": "benibenj",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/44439583?v=4",
+          "date": "2026-11-20T14:19:38Z",
+          "htmlUrl": "https://github.com/microsoft/vscode/commit/464464d09dfa328a90d62ab270dab81cf5ee2635"
+        },
+        {
+          "sha": "4b4a09658898b2fc9cd5ef1516872faff0c56126",
+          "shortSha": "4b4a096",
+          "message": "Chat windows: compactAllowsSplit and newChatWindow options (#349078)",
+          "authorName": "hediet",
+          "authorLogin": "hediet",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2931520?v=4",
+          "date": "2026-11-20T14:11:51Z",
+          "htmlUrl": "https://github.com/microsoft/vscode/commit/4b4a09658898b2fc9cd5ef1516872faff0c56126"
+        },
+        {
+          "sha": "64f05eae4cddddd8ede7499ad62c6538d24707a1",
+          "shortSha": "64f05ea",
+          "message": "Engineering - cache the Chromium build scripts so the Linux jobs don't depend on GitHub's rate limits (#348980)",
+          "authorName": "bryanchen-d",
+          "authorLogin": "bryanchen-d",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/41454397?v=4",
+          "date": "2026-11-20T14:06:52Z",
+          "htmlUrl": "https://github.com/microsoft/vscode/commit/64f05eae4cddddd8ede7499ad62c6538d24707a1"
+        },
+        {
+          "sha": "9919be1bdbbf19b7561f90ccf51ca19a9aa5112b",
+          "shortSha": "9919be1",
+          "message": "Git: let the worktree's git commands finish before deleting it in the deleteWorktree test (#349440)",
+          "authorName": "bryanchen-d",
+          "authorLogin": "bryanchen-d",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/41454397?v=4",
+          "date": "2026-11-20T14:00:23Z",
+          "htmlUrl": "https://github.com/microsoft/vscode/commit/9919be1bdbbf19b7561f90ccf51ca19a9aa5112b"
+        },
+        {
+          "sha": "b7efef98c76f5ce31ff29f87b687d77867ea8916",
+          "shortSha": "b7efef9",
+          "message": "Update distro (#349439)",
+          "authorName": "benibenj",
+          "authorLogin": "benibenj",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/44439583?v=4",
+          "date": "2026-11-20T13:53:44Z",
+          "htmlUrl": "https://github.com/microsoft/vscode/commit/b7efef98c76f5ce31ff29f87b687d77867ea8916"
+        },
+        {
+          "sha": "c050dc370ace94edb9858628dd515c668b01a9e3",
+          "shortSha": "c050dc3",
+          "message": "Git - refresh a huge repository when its root or git folder changes (#349438)",
+          "authorName": "lszomoru",
+          "authorLogin": "lszomoru",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/3372902?v=4",
+          "date": "2026-11-20T13:41:33Z",
+          "htmlUrl": "https://github.com/microsoft/vscode/commit/c050dc370ace94edb9858628dd515c668b01a9e3"
+        }
+      ]
+    }
+  }
+}
